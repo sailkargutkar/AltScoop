@@ -371,7 +371,14 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
+.standard-header {
+  font-size: 43px;
+  font-weight: 700;
+  color: #012970;
+}
+.standard-color {
+  color: #012970 !important;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -383,7 +390,7 @@ section {
 }
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 43px;
   font-weight: 700;
   color: #012970;
 }
@@ -2033,4 +2040,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+
+/*--------------------------------------------------------------
+# Misc
+--------------------------------------------------------------*/
+.margin-top-4 {
+  margin-top: 4% !important;
 }
